@@ -1,0 +1,36 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    paddingHorizontal: 10,
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: '900',
+  },
+  subtitle: {
+    fontSize: 20,
+    fontWeight: '400',
+  },
+  body: {
+    paddingVertical: 10,
+  },
+  item: {
+    height: 60,
+    borderWidth: 1,
+    borderRadius: 5,
+    margin: 10,
+    marginTop: 0,
+    padding: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  text: {
+    flex: 1,
+    textAlign: 'center',
+  },
+  image: {
+    width: 40,
+    height: 40,
+  },
+});

@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { Animated, Image, Text, TextInput, View } from 'react-native';
 import { widthPercentageToDP } from 'react-native-responsive-screen';
 import img1 from '../assets/img/150.png';
-import AnimatedScreen from '../../build';
+import AnimatedScreen from '../../src';
 import style from './style';
 
 const sections = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];

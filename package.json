@@ -1,10 +1,11 @@
 {
   "name": "react-native-animated-screen",
-  "version": "1.0.0",
+  "version": "1.0.",
   "description": "Animated screens made easy",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib && tsc"
+    "build": "rm -rf ./lib && tsc --project ./tsconfig.json"
   },
   "dependencies": {
     "@react-native-community/blur": "^3.6.0",
@@ -26,9 +27,9 @@
     "react-native": "*"
   },
   "files": [
-    "lib"
+    "lib/**/*"
   ],
   "homepage": "https://github.com/giovannidavi/react-native-animated-screen",
   "author": "Giovanni Davì",
-  "license": "ISC"
+  "license": "MIT"
 }

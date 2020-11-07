@@ -2,6 +2,10 @@
 #
 .DS_Store
 
+# build
+#
+lib/
+
 # node.js
 #
 node_modules/

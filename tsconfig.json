@@ -1,13 +1,22 @@
 // `tsconfig.json` for react native TypeScript package
 {
   "compilerOptions": {
-    "target": "es6",
     "module": "es6",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true,
-    "jsx": "react-native",
     "skipLibCheck": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": [
+      "es6"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext"
   },
   "include": [
     "src"

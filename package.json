@@ -29,6 +29,11 @@
   "files": [
     "lib/**/*"
   ],
+  "keywords": [
+    "animated screen",
+    "parallax header",
+    "animated header"
+  ],
   "homepage": "https://github.com/giovannidavi/react-native-animated-screen",
   "author": "Giovanni Davì",
   "license": "MIT"

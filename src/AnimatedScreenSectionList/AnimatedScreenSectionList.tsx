@@ -6,6 +6,7 @@ import {
   SectionListProps,
   ViewStyle,
   View,
+  SectionList,
 } from 'react-native';
 import AnimatedScreenContext from '../AnimatedScreenContext';
 
@@ -13,12 +14,14 @@ type Props<T = any> = Animated.AnimatedProps<SectionListProps<T>> & {
   animatedStyle?: (scrollY: Animated.Value) => ViewStyle;
   style?: ViewStyle;
   ListFooterComponent?: () => JSX.Element | null;
+  sectionlistRef?: React.RefObject<SectionList<T>>;
 };
 
 const AnimatedScreenSectionList: React.FC<Props> = ({
   animatedStyle,
   style,
   ListFooterComponent = () => null,
+  sectionlistRef,
   ...sectionListProps
 }) => {
   const [contentHeight, setContentHeight] = useState(0);
@@ -55,6 +58,7 @@ const AnimatedScreenSectionList: React.FC<Props> = ({
   return (
     <>
       <Animated.SectionList
+        ref={sectionlistRef}
         onScroll={handleScroll}
         scrollEventThrottle={16}
         stickySectionHeadersEnabled

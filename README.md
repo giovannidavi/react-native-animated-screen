@@ -17,7 +17,7 @@ You can play with our ready-to-use **examples** from our GitHub repository
 
 
 |Example 1|Example 2|Example 3|Example 4|
-|---|---|---|---|---|
+|---|---|---|---|
 |![](https://raw.githubusercontent.com/giovannidavi/react-native-animated-screen/master/Examples/assets/img/Example1.gif)|![](https://raw.githubusercontent.com/giovannidavi/react-native-animated-screen/master/Examples/assets/img/Example2.gif)|![](https://raw.githubusercontent.com/giovannidavi/react-native-animated-screen/master/Examples/assets/img/Example3.gif)|![](https://raw.githubusercontent.com/giovannidavi/react-native-animated-screen/master/Examples/assets/img/Example4.gif)|
 
 

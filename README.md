@@ -33,10 +33,17 @@ You can check the examples code here [examples](https://github.com/giovannidavi/
 
 ## Installation
 
+With npm
+
+```
+$ npm install react-native-animated-screen
+
 ```
 
-$ npm install --save react-admin-animated-screen
+With yarn
 
+```
+$ yarn add react-native-animated-screen
 ```
 
   

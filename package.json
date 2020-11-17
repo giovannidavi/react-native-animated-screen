@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-screen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React NAtive Animated Screens made easy",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

@@ -2,7 +2,8 @@
 
 [![Version](https://img.shields.io/npm/v/react-native-animated-screen)](https://www.npmjs.com/package/react-native-animated-screen) [![License](https://img.shields.io/npm/l/react-native-animated-screen)](https://www.npmjs.com/package/react-native-animated-screen) [![Build Status](https://img.shields.io/github/repo-size/giovannidavi/react-native-animated-screen)](https://github.com/giovannidavi/react-native-animated-screen)
 
-  
+![](https://raw.githubusercontent.com/giovannidavi/react-native-animated-screen/master/Examples/assets/img/header-img.jpg)
+
 
 This module includes all the necessary components to generate outstanding **scroll-based** **animated screens** and **screens header**.
 

@@ -1,5 +1,5 @@
 import React, { useState, ReactElement } from 'react';
-import { initialWindowSafeAreaInsets } from 'react-native-safe-area-context';
+import { initialWindowMetrics } from 'react-native-safe-area-context';
 import {
   Animated,
   NativeSyntheticEvent,
@@ -29,7 +29,7 @@ const AnimatedScreenWrapper: React.FC<Props> = ({
   disableParallaxEffect,
 }) => {
   const [scrollY] = useState<Animated.Value>(new Animated.Value(0));
-  const { top: safeTop } = initialWindowSafeAreaInsets || { top: 0 };
+  const { top: safeTop } = initialWindowMetrics?.insets || { top: 0 };
 
   return (
     <AnimatedScreenContext.Provider
